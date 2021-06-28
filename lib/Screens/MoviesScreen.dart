@@ -1,10 +1,7 @@
-// import '../widgets/bottomBarNavigation.dart';
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:movies_flutter/Screens/movieDetailScreen.dart';
-
 import '../model/moviesModel.dart';
-
 import 'package:http/http.dart' as http;
 
 class MoviesScreen extends StatefulWidget {
@@ -36,6 +33,7 @@ class _MoviesScreenState extends State<MoviesScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         toolbarHeight: 40,
         title: Text("MOVIES  "),
       ),

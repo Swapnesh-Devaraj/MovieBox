@@ -46,7 +46,7 @@ class _MovieDetailScreenState extends State<MovieDetailScreen> {
                       Container(
                         padding: EdgeInsets.all(300),
                         height: 350,
-                        width: 300,
+                        width: 280,
                         decoration: BoxDecoration(
                           image: DecorationImage(
                               fit: BoxFit.contain,
