@@ -2,7 +2,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:movies_flutter/Screens/movieDetailScreen.dart';
-import 'package:movies_flutter/widgets/sidenavDy.dart';
+
 import '../model/moviesModel.dart';
 
 import 'package:http/http.dart' as http;

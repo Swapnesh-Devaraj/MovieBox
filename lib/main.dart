@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '/Screens/MoviesScreen.dart';
 import '/Screens/homeScreen.dart';
-import '/widgets/sidenavDy.dart';
+import 'widgets/sideBarNavigation.dart';
 
 void main() {
   runApp(MyApp());
