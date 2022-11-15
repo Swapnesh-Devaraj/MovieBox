@@ -1,9 +1,13 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:movies_flutter/Screens/loginScreen.dart';
 import '/Screens/MoviesScreen.dart';
 import '/Screens/homeScreen.dart';
 import 'widgets/sideBarNavigation.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -12,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Assignment App",
-      home: MyHome(),
+      home: LoginScreen(),
     );
   }
 }
@@ -41,7 +45,7 @@ class _MyHomeState extends State<MyHome> {
     return MaterialApp(
       theme: ThemeData(
         primaryColor: Colors.blue[900],
-        accentColor: Colors.blue,
+        colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.blue),
       ),
       home: Scaffold(
         appBar: AppBar(

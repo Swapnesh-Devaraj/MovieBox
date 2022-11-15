@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "86949271871",
+    "project_id": "movie-box-dr03",
+    "storage_bucket": "movie-box-dr03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86949271871:android:1023f4c98257e17c6b9b8a",
+        "android_client_info": {
+          "package_name": "com.example.movies_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "86949271871-8v21qvspaptfv08s334qf20rkie8i5ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgUGpXPG0JmOIt4eG8vb0kHEKrf9miDQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "86949271871-8v21qvspaptfv08s334qf20rkie8i5ka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
