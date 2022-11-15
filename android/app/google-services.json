@@ -29,6 +29,13 @@
             {
               "client_id": "86949271871-8v21qvspaptfv08s334qf20rkie8i5ka.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "86949271871-s1ftjm2784ju64ul19vju4cnuv29k2e0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.moviesFlutter"
+              }
             }
           ]
         }

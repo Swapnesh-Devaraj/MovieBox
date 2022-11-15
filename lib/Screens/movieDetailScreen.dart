@@ -58,48 +58,7 @@ class _MovieDetailScreenState extends State<MovieDetailScreen> {
                       ),
                     ],
                   ),
-                  SizedBox(height: 15),
-                  Container(
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                      children: [
-                        IconButton(
-                            onPressed: () => changeIc(),
-                            icon: Icon(
-                              iconChange ? Icons.bookmark_add : Icons.bookmark,
-                              size: 35,
-                              color: Theme.of(context).primaryColor,
-                            )),
-                        IconButton(
-                            onPressed: () {},
-                            icon: Icon(
-                              Icons.share,
-                              size: 35,
-                              color: Theme.of(context).primaryColor,
-                            )),
-                        IconButton(
-                            onPressed: () => {},
-                            icon: Icon(
-                              Icons.thumb_up,
-                              size: 35,
-                              color: Theme.of(context).primaryColor,
-                            )),
-                        IconButton(
-                            onPressed: () {},
-                            icon: Icon(
-                              Icons.thumb_down_alt_outlined,
-                              size: 35,
-                              color: Theme.of(context).primaryColor,
-                            ))
-                      ],
-                    ),
-                    decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.3),
-                        borderRadius: BorderRadius.circular(20)),
-                    height: 80,
-                  ),
-                  SizedBox(height: 15),
+                  SizedBox(height: 30),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 8),
                     child: Row(
@@ -118,7 +77,7 @@ class _MovieDetailScreenState extends State<MovieDetailScreen> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 5),
+                  SizedBox(height: 15),
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 8),
                     child: Row(
@@ -154,19 +113,3 @@ class _MovieDetailScreenState extends State<MovieDetailScreen> {
     );
   }
 }
-// appBar: AppBar(
-//         title: Text(
-//           movie.title,
-//           style: TextStyle(fontSize: 25),
-//         ),
-//       ),
-// child: IconButton(
-//                       onPressed: () => Navigator.pop(context),
-//                       icon: Transform.translate(
-//                         offset: Offset(-300, -300),
-//                         child: Icon(
-//                           Icons.arrow_back_ios_new,
-//                           size: 30,
-//                         ),
-//                       ),
-//                     ),

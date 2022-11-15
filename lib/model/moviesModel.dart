@@ -49,6 +49,7 @@ class Result {
     this.video,
     this.voteAverage,
     this.voteCount,
+    this.iswishlisted,
   });
 
   bool adult;
@@ -65,6 +66,7 @@ class Result {
   bool video;
   double voteAverage;
   int voteCount;
+  bool iswishlisted;
 
   factory Result.fromJson(Map<String, dynamic> json) => Result(
         adult: json["adult"] == null ? null : json["adult"],
@@ -92,6 +94,8 @@ class Result {
             ? null
             : json["vote_average"].toDouble(),
         voteCount: json["vote_count"] == null ? null : json["vote_count"],
+        iswishlisted:
+            json["iswishlisted"] == null ? null : json["iswishlisted"],
       );
 
   Map<String, dynamic> toJson() => {
@@ -115,6 +119,7 @@ class Result {
         "video": video == null ? null : video,
         "vote_average": voteAverage == null ? null : voteAverage,
         "vote_count": voteCount == null ? null : voteCount,
+        "iswishlisted": iswishlisted == null ? null : iswishlisted,
       };
 }
 
