@@ -71,7 +71,7 @@ class WishList extends StatelessWidget {
                       children: [
                         Container(
                           margin: EdgeInsets.symmetric(
-                              horizontal: 25, vertical: 25),
+                              horizontal: 24, vertical: 24),
                           child: Row(
                             children: [
                               ClipRRect(
